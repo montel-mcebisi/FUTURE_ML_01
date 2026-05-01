@@ -10,11 +10,11 @@ To better understand the model's error margins, a Seasonal Decomposition was per
 
 Observed: The actual raw price data including all market noise and volatility.
 
-Trend: The long-term progression of the price. This confirms that while the general movement was downward, it was not a linear "straight line" drop, but a staggered decline.
+Trend: The long-term progression of the price. This confirms that while the general movement was downward, it was not a linear "straight line" drop, but a staggered decline. A company that relies on oil as a raw material can plan for lower procurement costs in their long-term annual budget
 
 Seasonal: This revealed recurring cycles within the data. In the seasonal plot in our data, we can see monthly fluctuations that a standard linear model would typically miss.
 
-Residual (Resid): The "leftover" noise after removing trend and seasonality. Large clusters in the residual plot indicate specific external events (like geopolitical shocks) that cannot be predicted by time alone.
+Residual (Resid): The "leftover" noise after removing trend and seasonality. Large clusters in the residual plot indicate specific external events (like geopolitical shocks) that cannot be predicted by time alone. The analysis shows that external shocks frequently knock prices off the trend line. Businesses should maintain a "contingency fund" to handle the $13.98 (RMSE) potential price swings that the linear trend cannot predict.
 
 Seasonal Insights
 The Seasonal Subseries Plot provides a deeper dive into monthly performance:
@@ -23,7 +23,7 @@ Red Lines: Represent the mean price for each month across the entire dataset.
 
 Black Lines: Show the year-over-year variation for that specific month.
 
-Observation: We can see that prices typically peaked around May and June, while reaching their lowest average points in November and December. This suggests a "Heating Oil" seasonality effect in the market.
+Observation: We can see that prices typically peaked around May and June, while reaching their lowest average points in November and December. This suggests a "Heating Oil" seasonality effect in the market. Businesses can use this to "buy ahead" during low-price months.
 
 
 
